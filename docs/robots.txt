@@ -1,0 +1,11 @@
+# robots.txt for www.tika-ai.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin or private areas if any
+# Disallow: /admin/
+# Disallow: /private/
+
+# Sitemap location (update when you create a sitemap)
+# Sitemap: https://www.tika-ai.com/sitemap.xml
