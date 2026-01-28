@@ -99,7 +99,6 @@ const Nav = styled.nav<{ $isScrolled: boolean }>`
     $isScrolled
       ? `
         background: rgba(245, 245, 247, 0.9);
-        backdrop-filter: blur(12px);
         border-bottom: 1px solid rgba(0, 0, 0, 0.10);
       `
       : `

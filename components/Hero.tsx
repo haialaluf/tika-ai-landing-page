@@ -152,7 +152,6 @@ const Blob = styled.div<{
   height: ${({ $size }) => $size};
   background: ${({ $bg }) => $bg};
   border-radius: 9999px;
-  filter: ${({ $blurPx }) => `blur(${$blurPx}px)`};
   ${({ $animate }) =>
     $animate === "pulse" &&
     css`
